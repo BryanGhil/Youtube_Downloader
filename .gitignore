@@ -1,0 +1,71 @@
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+env/
+*.env
+
+# Django specific
+db.sqlite3
+*.log
+*.pot
+*.py[cod]
+
+# Media/Uploads
+/media/
+/staticfiles/
+
+# Migrations
+**/migrations/
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.orig
+
+# Node modules (if using JavaScript packages)
+node_modules/
+
+# Compiled code
+*.so
+
+# Deployment
+*.pid
+*.coverage
+*.cover
+*.log
+*.out
+*.err
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.dockerfile
+*.tar
+
+# Pipenv
+Pipfile.lock
+Pipfile
+
+# pytest
+.cache/
+
+# Coverage reports
+htmlcov/
+
+# Local testing and debugging files
+debug.log
+.env.local
+.env.development
+.env.test
+.env.production
